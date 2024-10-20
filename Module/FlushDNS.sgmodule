@@ -1,4 +1,4 @@
-#!name=FlushDNS
+#!name=Flush DNS
 #!desc=2024-10-20
 #!category=深巷有喵
 #!arguments=TITLE:DNS Flush,ICON:cube,COLOR:#AFE59A
