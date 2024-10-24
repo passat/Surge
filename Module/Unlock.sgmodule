@@ -40,7 +40,7 @@ DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
 
 # 阿里云盘 SVIP
 # hostname = *.aliyundrive.com, *.alipan.com
-阿里云盘 = type=http-response,pattern=^https?:\/\/(api|member)\.(aliyundrive|alipan)\.com\/(.+\/(users|activity|user\/get)|((business|apps)\/.+\/users|adrive\/.+\/user)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/passat/Surge/refs/heads/main/Scripts/alidrive.js
+阿里云盘 = type=http-response,pattern=^https?:\/\/(api|member)\.(aliyundrive|alipan)\.com\/(.+\/(users|activity|user\/get)|((business|apps)\/.+\/users|adrive\/.+\/user)),requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js
 
 # 计算器+ 
 # hostname = buy.itunes.apple.com
