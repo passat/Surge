@@ -1,6 +1,9 @@
 #!name = Unlock
-#!desc = 2024-10-24
+#!desc = 2024-10-22
 #!author = 
+#!url = 
+#!icon =
+
 
 
 [Rule]
@@ -9,7 +12,7 @@ AND,((DEST-PORT,443),(PROTOCOL,UDP)),REJECT-NO-DROP
 # 微信屏蔽443端口
 AND,((DOMAIN-KEYWORD,wechat),(OR,((PROTOCOL,UDP),(PROTOCOL,QUIC))),(DEST-PORT,443)),REJECT
 # 微信广告过滤
-DOMAIN-SUFFIX, wxs.qq.com,REJECT
+DOMAIN-SUFFIX,wxs.qq.com,REJECT
 # 微信小程序通用规则
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
 DOMAIN,wxsmsdy.video.qq.com,REJECT
