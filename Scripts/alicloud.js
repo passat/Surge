@@ -5,7 +5,6 @@
 > WechatID          公众号墨鱼手记
 > TgChannel         https://t.me/ddgksf2021
 > Contribute        https://t.me/ddgksf2013_bot
-> Feedback          📮 ddgksf2013@163.com 📮
 > UpdateTime        2023-08-05
 > Attention         如需引用请注明出处，谢谢合作！
 > ScriptURL         https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js
