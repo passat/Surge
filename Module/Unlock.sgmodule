@@ -7,13 +7,13 @@
 
 
 [Rule]
-# 小红书
+# 小红书屏蔽443端口
 AND,((DEST-PORT,443),(PROTOCOL,UDP)),REJECT-NO-DROP
 # 微信屏蔽443端口
 AND,((DOMAIN-KEYWORD,wechat),(OR,((PROTOCOL,UDP),(PROTOCOL,QUIC))),(DEST-PORT,443)),REJECT
 # 微信广告过滤
 DOMAIN-SUFFIX,wxs.qq.com,REJECT
-# 微信小程序通用规则
+# 微信小程序通用
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
 DOMAIN,wxsmsdy.video.qq.com,REJECT
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
@@ -21,7 +21,7 @@ DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
 [URL Rewrite]
 
 [Header Rewrite]
-# 公众号中推广内容 
+# 公众号推广内容 
 # hostname = mp.weixin.qq.com
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|jsmonitor|masonryfeed|relatedarticle)\? reject-dict header
 
