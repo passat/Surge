@@ -121,4 +121,4 @@ Drafts = type=http-response,pattern=^https?:\/\/backend\.getdrafts\.com\/api\/v\
 
 
 [MITM]
-hostname = %APPEND% backend.getdrafts.com, *.aliyundrive.com, *.alipan.com, pan.baidu.com, mobads.baidu.com, mime.baidu.com, appwk.baidu.com, afd.baidu.com, buy.itunes.apple.com, edith.xiaohongshu.com, www.xiaohongshu.com, mp.weixin.qq.com, acs.m.taobao.com, guide-acs.m.taobao.com, *.bili*.*, *.bilibili.*, *.bilibili.com, api.live.bilibili.com, app.bilibili.com, api.m.jd.com, api.smart.jd.com, bdsp-x.jd.com, dsp-x.jd.com, jdread-api.jd.com, lop-proxy.jd.com, ms.jr.jd.com
+hostname = %APPEND% backend.getdrafts.com, *.aliyundrive.com, *.alipan.com, pan.baidu.com, mobads.baidu.com, mime.baidu.com, appwk.baidu.com, afd.baidu.com, buy.itunes.apple.com, edith.xiaohongshu.com, www.xiaohongshu.com, mp.weixin.qq.com, wxa.wxs.qq.com, wximg.wxs.qq.com, wxsmw.wxs.qq.com, acs.m.taobao.com, guide-acs.m.taobao.com, *.bili*.*, *.bilibili.*, *.bilibili.com, api.live.bilibili.com, app.bilibili.com, api.m.jd.com, api.smart.jd.com, bdsp-x.jd.com, dsp-x.jd.com, jdread-api.jd.com, lop-proxy.jd.com, ms.jr.jd.com
